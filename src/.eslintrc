@@ -1,0 +1,13 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": ["eslint:recommended", "prettier"],
+  "rules": {
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["off"] //["error"]でno-unused-varsが正常に動作?通常盤no-unused-varsの方が優秀かも.
+    //https://blog.nksm.in.net/2020-05-04-typescript-eslintでno-unused-varsをoffにする/
+  }
+}

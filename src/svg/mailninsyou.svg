@@ -1,0 +1,20 @@
+<svg width="23.8125" height="11.90625" xmlns="http://www.w3.org/2000/svg" xmlns:undefined="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:undefined="http://www.inkscape.org/namespaces/inkscape" version="1.1">
+ <defs id="defs2">
+  <rect x="52.91667" y="117.92857" width="111.125" height="35.52976" id="rect841"/>
+ </defs>
+ <metadata id="metadata5">image/svg+xml</metadata>
+ <g>
+  <title>Layer 1</title>
+  <g stroke-width="0.17344" fill="#1e90ff"   id="layer1">
+   <g id="g856" transform="matrix(0.26458333,0,0,0.26458333,-1.6971614,1.308229)">
+    <rect stroke-width="0.17344" fill="#1e90ff" ry="22.5" y="-4.94449" x="6.41447" height="45" width="90" id="rect833"/>
+    <text stroke-width="0.40527" fill="#ffffff" font-family="sans-serif" font-size="16.211px" font-weight="normal" font-style="normal" transform="scale(1.0192371,0.98112599)" id="text837" y="21.56107" x="25.65659" xml:space="preserve">
+     <tspan stroke-width="0.40527" fill="#ffffff" y="23" x="21.5" id="tspan835" >Sign up</tspan>
+    </text>
+   </g>
+   <text fill="#000000" font-family="sans-serif" font-size="10.5833px" font-weight="normal" font-style="normal" xml:space="preserve" id="text839"/>
+  </g>
+  <rect stroke-width="0.17344" stroke-opacity="0" stroke="#000000" id="svg_2" height="5.16853" width="16.62919" y="3.2565" x="3.59165" fill="#1e90ff"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="4" stroke-width="0" id="svg_6" y="7.18908" x="1.88765" fill="#ffffff">メール認証</text>
+ </g>
+</svg>

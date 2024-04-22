@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="loginbutton.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 23.8125 11.90625"
+   height="45"
+   width="90">
+  <defs
+     id="defs2">
+    <rect
+       id="rect841"
+       height="35.529762"
+       width="111.125"
+       y="117.92857"
+       x="52.916668" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:snap-page="false"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     lock-margins="false"
+     units="px"
+     inkscape:window-maximized="0"
+     inkscape:window-y="259"
+     inkscape:window-x="97"
+     inkscape:window-height="977"
+     inkscape:window-width="1696"
+     inkscape:pagecheckerboard="true"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="52.036786"
+     inkscape:cx="166.0787"
+     inkscape:zoom="1.979899"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="レイヤー 1">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-1.6971614,1.308229)"
+       id="g856">
+      <rect
+         style="fill:#1e90ff;fill-opacity:1;stroke-width:0.173442"
+         id="rect833"
+         width="90"
+         height="45"
+         x="6.4144683"
+         y="-4.9444876"
+         ry="22.5" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:16.211px;line-height:0;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.405275"
+         x="25.656595"
+         y="21.561066"
+         id="text837"
+         transform="scale(1.0192371,0.98112599)"><tspan
+           sodipodi:role="line"
+           id="tspan835"
+           x="22.5"
+           y="23"
+           style="line-height:8.35;fill:#ffffff;fill-opacity:1;stroke-width:0.405275">Sign in</tspan></text>
+    </g>
+    <text
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect841);fill:#000000;fill-opacity:1;stroke:none;"
+       id="text839"
+       xml:space="preserve" />
+  </g>
+</svg>

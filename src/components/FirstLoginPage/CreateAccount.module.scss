@@ -1,0 +1,19 @@
+.root {
+  position: absolute;
+  top: 60px;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin-bottom: 0px;
+  resize: none;
+  overflow: hidden;
+  overflow-y: auto;
+
+  .wrapper {
+    padding: 3rem 0;
+
+    .content_wrapper {
+      padding-bottom: 24px;
+    }
+  }
+}
