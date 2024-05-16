@@ -21,6 +21,9 @@ import { baseURL } from 'components/Common/ApiURL';
 import { AlertInfo } from 'storetypes';
 import { useDispatch } from 'react-redux';
 
+import Stack from '@mui/material/Stack';
+import Typography from '@mui/material/Typography';
+
 export const MailAuth: React.VFC = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -63,10 +66,6 @@ export const MailAuth: React.VFC = () => {
       });
   };
 
-  // //追加分
-  // const canvas = document.getElementById('myCanvas') as HTMLCanvasElement;
-  // const context = canvas.getContext('2d');
-
   return (
     <React.Fragment>
       <NavbarPage />
@@ -80,11 +79,11 @@ export const MailAuth: React.VFC = () => {
                 className={styles.box}
                 sx={{ flex: { md: '0 0 50%' }, maxWidth: { md: '50%' } }}
               >
-                {/* 追加分 */}
-                <Stepper alternativeLabel sx={{ marginBottom: '20px' }}>
+                {/* Step */}
+                <Stepper alternativeLabel sx={{ marginBottom: '10%' }}>
                   <Step>
                     <StepLabel>
-                      <p className="h6 text-center">メール登録・認証</p>
+                      <p className="h6 text-center">メール認証</p>
                     </StepLabel>
                   </Step>
                   <Step>
@@ -98,42 +97,10 @@ export const MailAuth: React.VFC = () => {
                     </StepLabel>
                   </Step>
                 </Stepper>
-                {/* <Grid container spacing={2}>
-                  <Grid item xs={4}>
-                    <Card>
-                      <CardContent>
-                        <p className="h5 text-left mb-4">
-                          STEP1:メール登録・認証
-                        </p>
-                      </CardContent>
-                    </Card>
-                  </Grid>
-                  <Grid item xs={4}>
-                    <Card>
-                      <CardContent>
-                        <p className="h5 text-left mb-4">STEP2</p>
-                        <div id="step2" className={styles.step}>
-                          <h2>Step 2: ユーザ登録</h2>
-                        </div>
-                      </CardContent>
-                    </Card>
-                  </Grid>
-                  <Grid item xs={4}>
-                    <Card>
-                      <CardContent>
-                        <div id="step3" className={styles.step}>
-                          <h2>Step 3: 問診チャット</h2>
-                          <input type="text" placeholder="Address">
-                        <input type="text" placeholder="City">
-                        <input type="text" placeholder="Country">
-                        </div>
-                      </CardContent>
-                    </Card>
-                  </Grid>
-                </Grid> */}
+
                 <Card>
                   <CardContent sx={{ padding: '1.25rem' }}>
-                    <p className="h5 text-center mb-4">メール登録・認証</p>
+                    <p className="h5 text-center mb-4">メール認証</p>
                     <form>
                       <div className={styles.input_field}>
                         <div className={styles.input}>
@@ -153,7 +120,18 @@ export const MailAuth: React.VFC = () => {
                           />
                         </div>
                       </div>
-                      <div className="text-center">
+                      <Stack
+                        spacing={12}
+                        direction="row"
+                        justifyContent="center"
+                      >
+                        <Button
+                          variant="outlined"
+                          type="submit"
+                          onClick={submitMail}
+                        >
+                          再送
+                        </Button>
                         <Button
                           variant="contained"
                           type="submit"
@@ -161,7 +139,7 @@ export const MailAuth: React.VFC = () => {
                         >
                           メール認証
                         </Button>
-                      </div>
+                      </Stack>
                     </form>
                   </CardContent>
                 </Card>
